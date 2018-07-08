@@ -1,0 +1,44 @@
+.cookies-banner {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: auto;
+    min-height: 21px;
+    z-index: 999;
+    background: #645862;
+    color: #fff;
+    line-height: 21px;
+    padding: 8px 18px;
+    font-family: verdana, arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    bottom: 0;
+    opacity: 1;
+}
+
+.cookies-banner a {
+    border-bottom: dotted 1px;
+}
+
+.cookies-banner-close {
+    float: right;
+    display: block;
+    padding: 5px 8px;
+    min-width: 100px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000000;
+    background: #F1D600;
+    text-align: center;
+}
+
+.cookies-banner-text {
+    display: block;
+    padding: 5px 0 5px 0;
+}
+
+.cookies-banner-morelink {
+    text-decoration: none;
+    color: #F1D600;
+}
